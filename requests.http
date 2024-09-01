@@ -1,0 +1,19 @@
+@host = http://localhost:3000
+
+
+###
+POST {{host}}/content/video
+Content-type: application/json
+
+{
+  "title": "Test Video",
+  "description": "This is a test video",
+  "videoUrl": "uploads/test.mp4",
+  "thumbnailUrl": "uploads/test.jpg",
+  "sizeInKb": 1430145,
+  "duration": 100
+}
+
+###
+GET {{host}}/content/stream/123
+Content-type: application/json

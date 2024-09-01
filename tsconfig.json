@@ -27,9 +27,6 @@
       "@src/*": [
         "./src/*"
       ],
-      "@resource/*": [
-        "./resource/*"
-      ]
     },
     "removeComments": true,
     "resolveJsonModule": true,
