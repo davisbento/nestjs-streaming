@@ -6,6 +6,7 @@ import { ThumbnailEntity } from '@src/core/entity/thumbnail.entity';
 import { VideoEntity } from '@src/core/entity/video.entity';
 import { PrismaService } from '@src/persistence/prisma/prisma.service';
 
+// eslint-disable-next-line
 const contentInclude = Prisma.validator<Prisma.ContentInclude>()({
   Movie: {
     include: {
